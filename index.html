@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPENRENTAL - All In One Rental Business Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 헤더 섹션 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/logo.jpg" alt="OPENRENTAL Logo">
+                <h1>OPENRENTAL</h1>
+            </div>
+            <!-- 햄버거 메뉴 버튼 (PC/모바일 모두 표시) -->
+            <button class="mobile-menu-toggle" type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!-- 슬라이드 메뉴 -->
+            <div class="mobile-dropdown">
+                <div class="mobile-nav-menu">
+                    <a href="#company">회사소개</a>
+                    <a href="#clients">고객사</a>
+                    <a href="#pricing">가격정책</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="mobile-buttons">
+                    <a href="https://openrental.kr/logout.do?isdemo=Y" class="mobile-btn">데모체험</a>
+                    <a href="https://shop.openrental.kr/index.do" class="mobile-btn">쇼핑몰</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+        <!-- PC 버전 히어로 -->
+        <div class="hero-pc">
+            <div class="hero-content">
+                <h2 class="animate-up">오픈렌탈을 소개합니다.</h2>
+                <div class="subtitle animate-up">All In One Rental Business Platform</div>
+                <p class="animate-up">렌탈 운영관리시스템, 모바일SCM, 쇼핑몰.<br>
+                    3가지의 전산을 하나로 통합.<br>
+                    렌탈사가 필요한 모든 기능을 하나의 시스템에 담아서<br>
+                    렌탈사업 운영에 최적화된 솔루션을 제시합니다.</p>
+                <a href="https://openrental.kr/logout.do?isdemo=Y" class="btn apply-btn animate-up">신청하기</a>
+            </div>
+            <div class="hero-image animate-up">
+                <img src="imgs/main.jpg" alt="가전제품 렌탈 쇼핑몰">
+            </div>
+        </div>
+        
+        <!-- 모바일 버전 히어로 -->
+        <div class="hero-mobile">
+            <div class="hero-content">
+                <h2 class="animate-up">오픈렌탈을 소개합니다.</h2>
+                <div class="subtitle animate-up">All In One Rental Business Platform</div>
+                <p class="animate-up">렌탈 운영관리시스템, 모바일SCM, 쇼핑몰.<br>
+                    3가지의 전산을 하나로 통합.<br>
+                    렌탈사업 운영에 최적화된 솔루션을 제시합니다.</p>
+                <a href="https://openrental.kr/logout.do?isdemo=Y" class="btn apply-btn animate-up">신청하기</a>
+            </div>
+            <div class="hero-image animate-up">
+                <img src="imgs/main.jpg" alt="가전제품 렌탈 쇼핑몰">
+            </div>
+        </div>
+    </section>
+
+    <!-- 회사소개 섹션 -->
+    <section id="company" class="company-section">
+        <div class="container">
+            <h2>회사소개</h2>
+            <p class="section-description">OPENRENTAL은 최고의 렌탈 서비스를 제공합니다.</p>
+            
+            <!-- 메인 이미지 -->
+            <div class="main-image">
+                <img src="imgs/jacob.jpg" alt="회사 대표 이미지">
+            </div>
+            
+            <!-- 이미지 슬라이더 -->
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="imgs/jacob1.jpg" alt="회사 이미지 1">
+                    </div>
+                    <div class="slide">
+                        <img src="imgs/jacob2.jpg" alt="회사 이미지 2">
+                    </div>
+                    <div class="slide">
+                        <img src="imgs/jacob3.jpg" alt="회사 이미지 3">
+                    </div>
+                    <div class="slide">
+                        <img src="imgs/jacob4.jpg" alt="회사 이미지 4">
+                    </div>
+                    <div class="slide">
+                        <img src="imgs/jacob5.jpg" alt="회사 이미지 5">
+                    </div>
+                    <div class="slide">
+                        <img src="imgs/jacob6.jpg" alt="회사 이미지 6">
+                    </div>
+                </div>
+                
+                <!-- 화살표 네비게이션 -->
+                <button class="slider-arrow prev-arrow">❮</button>
+                <button class="slider-arrow next-arrow">❯</button>
+                
+                <!-- 점 인디케이터 -->
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                    <span class="dot" data-index="4"></span>
+                    <span class="dot" data-index="5"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 고객사 섹션 -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <h2 class="section-title">많은 고객사들이 제이콥소프트와 함께합니다.</h2>
+            <div class="client-images">
+                <img src="imgs/client.jpg" alt="고객사">
+            </div>
+        </div>
+    </section>
+
+    <!-- 가격정책 섹션 -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">가격정책</h2>
+            <div class="price-plans">
+                <div class="plan">
+                    <div class="plan-header">
+                        <div class="price">가격 별도문의</div>
+                        <h3>LITE</h3>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> 최대 5 계정</li>
+                        <li><i class="fas fa-check"></i> 거래처, 물건, 상품관리</li>
+                        <li><i class="fas fa-check"></i> 고객/ 주문등록, 계약, 배송, 매출</li>
+                        <li><i class="fas fa-check"></i> CMS 관리, 카드출금 관리</li>
+                        <li><i class="fas fa-check"></i> 채권관리 및 각종 계약변경</li>
+                    </ul>
+                </div>
+                <div class="plan featured">
+                    <div class="plan-header">
+                        <div class="price">가격 별도문의</div>
+                        <h3>BASIC</h3>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> 최대 10 계정</li>
+                        <li><i class="fas fa-check"></i> Lite 상품 기능 외 추가메뉴 제공</li>
+                        <li><i class="fas fa-check"></i> 정산, A/S, 정기배송, SCM 플랫폼 제공</li>
+                    </ul>
+                    <div class="plan-tags">
+                        <span class="tag tag-virtual">가상계좌</span>
+                        <span class="tag tag-calc">정산</span>
+                        <span class="tag tag-tax">전자세금계산서</span>
+                        <span class="tag tag-mobile">모바일SCM</span>
+                        <span class="tag tag-contract">전자계약</span>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="plan-header">
+                        <div class="price">가격 별도문의</div>
+                        <h3>PRO+</h3>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> 최대 15 계정</li>
+                        <li><i class="fas fa-check"></i> Basic 상품 기능 외 추가메뉴 제공</li>
+                        <li><i class="fas fa-check"></i> 프리미엄 기능 및 자동화 기능 제공</li>
+                        <li><i class="fas fa-check"></i> 금융사 연동 및 쇼핑몰(장비 임대료 별도)</li>
+                    </ul>
+                    <div class="plan-tags">
+                        <span class="tag tag-virtual">가상계좌</span>
+                        <span class="tag tag-calc">정산</span>
+                        <span class="tag tag-tax">전자세금계산서</span>
+                        <span class="tag tag-mobile">모바일SCM</span>
+                        <span class="tag tag-contract">전자계약</span>
+                        <span class="tag tag-approval">전자승인</span>
+                        <span class="tag tag-accounting">회계</span>
+                        <span class="tag tag-shop">쇼핑몰</span>
+                        <span class="tag tag-cti">CTI</span>
+                        <span class="tag tag-chat">채팅</span>
+                        <span class="tag tag-alarm">알람</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="이름" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="이메일" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="연락처" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="문의사항" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">문의하기</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 섹션 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="imgs/jacoblogo.svg" alt="JACOB SOFT">
+                    </div>
+                    <a href="https://home.openrental.kr/myAttach/pdfFile/jacobsoft_introduce.pdf" class="download-btn">
+                        <i class="fas fa-download"></i> 회사소개서 다운로드
+                    </a>
+                    <p class="company-desc">
+                        Jacobsoft is developing easy and fast rental business solutions with IT technology.
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="contact-details">
+                                <h4>Tel</h4>
+                                <p>070-4001-5808</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-details">
+                                <h4>Address</h4>
+                                <p>경기도 안양시 동안구 엘에스로 142, 815호</p>
+                                <p>(호계동, 호계금정역 SK V1 center)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 JACOBSOFT. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
